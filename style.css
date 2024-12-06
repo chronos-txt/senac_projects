@@ -1,0 +1,140 @@
+
+
+
+
+/* Exercicio 5*/
+
+.bodyEx5 {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/10619171-parede-de-tijolos-com-relampago-de-neon-roxo-fundo-de-textura-de-parede-de-pedra-com-luz-fluorescente-violeta-e-espaco-vazio-para-texto-vetor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.total {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    display:grid;
+    justify-content: center;
+    border: solid;
+    border-radius: 2%;
+    border-color: #000000;
+    padding-bottom: 3%;
+}
+
+.changeColor, .changeShadow, .changeTheme {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    background-color: blue ;
+    height: 40px;
+    border-radius: 5%;
+}
+
+/* FIM EX 05 */
+
+/* EX 06 JOGO DO NUMERO */
+
+.bgEx6 {
+    background-image: url("https://wallpapers.com/images/hd/binary-and-numbers-cyber-security-vgqm162qu2hzhirt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.divEx6 {
+    align-items: center;
+    background-color: darkblue;
+    justify-content: center;
+    display: grid;
+    height: 300px;
+    width: 600px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.buttonInit {
+    height: 50px;
+    width: 230px;
+    background-color: crimson;
+    border-style: solid;
+}
+
+/* EXERCICIO 7 RANDOM NUMBER */
+
+
+@font-face {
+    font-family: mortalFont;
+    src: url("mk4-webfont.woff")
+}
+
+.div-rng{
+    text-align: center;
+    font-family: mortalFont;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.bgMortal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpapers.com/images/hd/rivalries-of-mortal-kombat-fan-art-bnpqo1nggalb2130.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    z-index: -1;
+}
+
+.mortal {
+    text-align: center;
+}
+
+.mkbutton {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+
+}
+
+#bodyNum {
+    align-items: center;
+    display: grid;
+}
+
+.mkbutton:hover {
+    opacity: .8;
+}
+
+#initGame {
+    height: 35px;
+    width: 150px;
+}
+
+.divGame {
+    display: none;
+}
+
+#userTip {
+    height: 15px;
+    width: 15px;
+    resize: none;
+}
+
+#initDiv {
+    border: solid;
+    border-color: #000000;
+
+}
+

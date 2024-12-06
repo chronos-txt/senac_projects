@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casper Num Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyNum">
+    <h1>Bem vindo ao jogo do número secreto!!!</h1>
+    
+    <div id="divInit">
+        <p>Após clicar em "INICIAR JOGO" terá 3 (três) tentativas para acertar o número secreto de 1 a 10!</p>
+        <button id="initGame" onclick="initGame()">INICIAR JOGO</button>
+
+    </div>
+
+
+
+    <div id="divGame" style="display: none;">
+        <textarea name="Tip" maxlength="1" id="userTip"></textarea>
+        <button id="enterButton" onclick="myTry()">Enviar</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
