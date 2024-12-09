@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex9</title>
+
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+        }
+        
+        div {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            gap: 5px;
+
+        }
+        
+        p {
+            font-size: 20px;
+            background-color: gray;
+            max-width: 2rem;
+            max-height: 2rem;
+            border-style: solid;
+            border-color: gray;
+            border-radius: .3rem;
+        }
+
+        .elementos {
+            padding-left: 3%;
+            padding-right: 3%;
+            max-width: 20px;
+            max-height: 20px;
+        }
+        
+        textarea {
+            resize: none;
+            background-color: antiquewhite;
+        }
+       
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+
+        <input inputmode="numeric" class="elementos" type="text" id="input1">
+        
+        <p class="elementos">+</p>
+        
+        <input inputmode="numeric" class="elementos" type="text" name="" id="input2">
+        
+        <button onclick="soma()" class="elementos" id="result">=</button>
+        
+        <label id="mylabel" class="elementos" for="areaResult">0</label>
+    </div>
+    <script src="script9.js"></script>
+</body>
+</html>
