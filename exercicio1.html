@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @font-face {
+            font-family: mk;
+            src: url("mk4-webfont.woff");
+        }
+
         body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
             background-image: url("wp.jpg");
-            
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 3%;
+            margin-right: 3%;
         }
         .paragrafos {
             color: black;
@@ -18,31 +28,67 @@
         }
 
         .titulos {
+            text-align: center;
             font-style: italic;
             padding-left: 1%;
-            background-color: aliceblue;
             color: black;
+            font-size: 2rem;
+        }
+
+        .paragrafos, .titulos {
+            opacity: .7;
+        }
+
+        div {
+            background-color: aliceblue;
+        }
+
+        a {
+            background-color: aliceblue;
+            text-decoration: none;
+            
+            font-size: 1.2rem;
+            border: px solid black;
+            border-radius: 2%;
+            
+        }
+
+        footer {
+            font-family: mk;
+            color: crimson;
         }
     </style>
 </head>
 <body>
-    <h1 class="titulos">Entenda a linha do tempo do apagão cibernético da CrowdStrike pela CNN Brasil</h1>
-    <p class="paragrafos">Durante a madrugada de quinta-feira (18) para sexta, vários estados norte-americanos, incluindo Alasca e Arizona, tiveram interrupções no serviço de emergência 911. 
-        Alguns hospitais também começaram a ter problemas de tecnologia durante a noite, de acordo com enfermeiras de plantão. Entre 3h e 4h no horário de Brasília, 
-        a Administração Federal de Aviação dos Estados Unidos (FAA) anunciou que todos os voos da Delta e da American Airlines estavam suspensos.
-        Vários minutos depois, a FAA diz que os voos da United e da Allegiant Airlines foram suspensos, independentemente do destino.</p>
+    <div>
+        <h1 class="titulos">Entenda a linha do tempo do apagão cibernético da CrowdStrike pela CNN Brasil</h1>
+        <p class="paragrafos">Durante a madrugada de quinta-feira (18) para sexta, vários estados norte-americanos, incluindo Alasca e Arizona, tiveram interrupções no serviço de emergência 911. 
+            Alguns hospitais também começaram a ter problemas de tecnologia durante a noite, de acordo com enfermeiras de plantão. Entre 3h e 4h no horário de Brasília, 
+            a Administração Federal de Aviação dos Estados Unidos (FAA) anunciou que todos os voos da Delta e da American Airlines estavam suspensos.
+            Vários minutos depois, a FAA diz que os voos da United e da Allegiant Airlines foram suspensos, independentemente do destino. 
+            </p>
+    </div>
 
-    <h2 class="titulos">Por que CrowdStrike foi responsável por apagão cibernético global por BBC News</h2>
-    <p class="paragrafos">Um apagão de tecnologia está provocando problemas em diversas partes do mundo, afetando bancos, empresas de mídia, aeroportos e até mesmo serviços de emergência.
-        Muitos voos não puderam decolar, com grandes filas e atrasos em aeroportos. Lojas e telecomunicações também foram afetados.
-        Diversas empresas e entidades afetadas apontaram um problema técnico com softwares da empresa de segurança CrowdStrike em sistemas Windows, da Microsoft.
-        A CrowdStrike, então, divulgou um comunicado afirmando que o apagão global se deveu a um problema de atualização de sistema. </p>
+    <div>
+        <h2 class="titulos">Por que CrowdStrike foi responsável por apagão cibernético global por BBC News</h2>
+        <p class="paragrafos">Um apagão de tecnologia está provocando problemas em diversas partes do mundo, afetando bancos, empresas de mídia, aeroportos e até mesmo serviços de emergência.
+            Muitos voos não puderam decolar, com grandes filas e atrasos em aeroportos. Lojas e telecomunicações também foram afetados.
+            Diversas empresas e entidades afetadas apontaram um problema técnico com softwares da empresa de segurança CrowdStrike em sistemas Windows, da Microsoft.
+            A CrowdStrike, então, divulgou um comunicado afirmando que o apagão global se deveu a um problema de atualização de sistema. </p>
+    </div>
 
-    <h3 class="titulos">Relatório da Crowdstrike explica apagão cibernético da última sexta-feira</h3>
-    <p class="paragrafos">A Crowdstrike divulgou nesta quarta-feira (24) um relatório explicando o que levou ao apagão cibernético da última sexta-feira (19). O problema se originou em uma 
-        atualização do mecanismo de proteção dinâmica chamado Falcon, com impacto direto em máquinas que utilizam o sistema operacional Windows.
-        Às 7h09 da sexta-feira (no horário de Brasília), a empresa liberou uma atualização de configuração de conteúdo “como parte das operações regulares” da plataforma Falcon, desenvolvida para proteger endpoints (ou pontos de extremidade, como computadores ou telefones) contra ameaças cibernéticas. A atualização serviria para coletar dados sobre possíveis novas técnicas de ameaça. O resultado, no entanto, foi diferente do esperado.
-        Já pela manhã daquele dia, consumidores reclamavam de paralisações em companhias aéreas, bancos e serviços de saúde, enquanto empresas confirmavam os danos em seus 
-        sistemas. Segundo a empresa, o defeito na atualização teria sido revertido ainda na sexta-feira, às 8h27.</p>
+    <div>
+        <h3 class="titulos">Relatório da Crowdstrike explica apagão cibernético da última sexta-feira</h3>
+        <p class="paragrafos">A Crowdstrike divulgou nesta quarta-feira (24) um relatório explicando o que levou ao apagão cibernético da última sexta-feira (19). O problema se originou em uma 
+            atualização do mecanismo de proteção dinâmica chamado Falcon, com impacto direto em máquinas que utilizam o sistema operacional Windows.
+            Às 7h09 da sexta-feira (no horário de Brasília), a empresa liberou uma atualização de configuração de conteúdo “como parte das operações regulares” da plataforma Falcon, desenvolvida para proteger endpoints (ou pontos de extremidade, como computadores ou telefones) contra ameaças cibernéticas. A atualização serviria para coletar dados sobre possíveis novas técnicas de ameaça. O resultado, no entanto, foi diferente do esperado.
+            Já pela manhã daquele dia, consumidores reclamavam de paralisações em companhias aéreas, bancos e serviços de saúde, enquanto empresas confirmavam os danos em seus 
+            sistemas. Segundo a empresa, o defeito na atualização teria sido revertido ainda na sexta-feira, às 8h27.</p>
+    </div>
+    <a href="index.html">RETURN</a>
+    
+    <footer>
+        <p>By Chronos</p>
+    </footer>
 </body>
 </html>
